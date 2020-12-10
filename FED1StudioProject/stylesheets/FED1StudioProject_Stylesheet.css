@@ -1,0 +1,23 @@
+﻿body {
+    background-color: dimgrey
+}
+
+
+.mainTitle {
+    background-color: darkslategrey;
+    font-weight: bold;
+    font-size: 48px;
+    color: darkgoldenrod
+}
+
+.sloganBanner {
+    font-weight: bold;
+    font-size: 36px;
+    color: darkgoldenrod
+}
+
+.introInfo {
+    font-size: 24px;
+    color: darkgoldenrod
+}
+footer{color:white;}

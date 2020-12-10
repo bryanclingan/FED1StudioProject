@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="stylesheets\FED1StudioProject_Stylesheet.css" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -88,7 +89,6 @@
   <ItemGroup>
     <Folder Include="Images\" />
     <Folder Include="scripts\" />
-    <Folder Include="stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
