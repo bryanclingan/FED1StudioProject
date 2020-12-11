@@ -21,5 +21,44 @@
     color: darkgoldenrod
 }
 footer{color:white;}
-
-#nav a{}
+/*#region Nav*/
+#nav ul{
+    background-color: black;
+    padding: .5em 1em;
+       
+}
+#nav li:hover {
+    background-color: grey;
+    
+}
+#nav ul li{
+    padding: .5em 1em;
+    display: block;
+}
+#nav a {
+    color: darkgoldenrod;
+    font-weight: bold;
+    text-decoration: none;
+}
+#nav a:hover  {
+    color: black;
+    font-style: italic; 
+}
+#nav ul li {
+    display: inline-block;
+    list-style: none;
+    
+}
+#nav {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+#nav li{ 
+    display: table-cell;
+}
+#nav a {
+    display: block;
+    text-align: center;
+}
+/*#endregion*/
