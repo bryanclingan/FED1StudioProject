@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: dimgrey
+    background-color: dimgray
 }
 
 
@@ -60,5 +60,21 @@ footer{color:white;}
 #nav a {
     display: block;
     text-align: center;
+}
+/*#endregion*/
+
+/*#region contactus*/
+.contactInfo{
+    text-align: center;
+}
+.contactInfo a{ 
+    color: darkred;
+   
+}
+.contactInfo p{
+    color: orangered;
+    font-weight: bold;
+        font-size: 24px
+        
 }
 /*#endregion*/
