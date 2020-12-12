@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="Images\corruscant.jpg" />
+    <Content Include="Images\Hyperspace.jpg" />
+    <Content Include="Images\Placeholder.png" />
+    <Content Include="Images\starwarslogo.jpg" />
     <Content Include="stylesheets\FED1StudioProject_Stylesheet.css" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
@@ -87,7 +91,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
