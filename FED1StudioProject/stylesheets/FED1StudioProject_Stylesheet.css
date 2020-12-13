@@ -127,14 +127,94 @@ footer{color:white;
 .asideDirectory{
     float: right;
     width: 25%;
-    display:inline-block
+    display: block
 }
+
+.asideDirectory li{
+        list-style:none;
+    border:2px solid black;
+    }
+    .asideDirectory  a {
+        color: darkgoldenrod;
+        font-weight: bold;
+        text-decoration: none;
+        display: block;
+        padding: .5em 2em;
+    }
+    .asideDirectory li:hover{
+        background-color: black
+    }
+    .asideDirectory a:hover{
+        font-style: italic;
+    }
 .teamInfo{
    display: inline-block;
-    width: 60%;
+    width: 75%;
     border-right:1px solid black;
+    box-sizing:border-box;
     
+}
+.teamInfo h2{
+    text-align:center;
+}
+#profilePic{
+    float:left;
+    display: block;
+    padding:.5em 1em;
 }
 
 /*#endregion*/
 
+/*#region classes*/
+.classSubjects h2{
+    text-align:center
+
+}
+.classSubjects ul li{
+display:inline-block;
+text-align: center;
+padding:.5em 1em;
+   
+}
+.classSubjects ul{
+    text-align:center;    
+}
+
+.classSubjects ul li{
+    border: 3px solid black;  
+    width: 200px;
+}
+.classTable{
+    text-align:center;
+}
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+table {
+    margin: auto; 
+    margin-bottom: 2em;
+    background-color: white;
+    table-layout:auto;
+    width:500px;
+}
+
+
+th {
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th {
+    padding: .3em;
+}
+thead{
+    background-color:grey
+}
+table:{
+    
+}
+
+
+/*#endregion*/

@@ -72,6 +72,7 @@
     <Content Include="Images\corruscant.jpg" />
     <Content Include="Images\Hyperspace.jpg" />
     <Content Include="Images\Placeholder.png" />
+    <Content Include="Images\profileplaceholder.jpg" />
     <Content Include="Images\starwarslogo.jpg" />
     <Content Include="stylesheets\FED1StudioProject_Stylesheet.css" />
     <Content Include="Team.html" />
