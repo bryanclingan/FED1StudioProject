@@ -1,9 +1,18 @@
-﻿main {
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rubik&family=Russo+One&display=swap');
+/* Fonts
+    Russo One
+    Rubik
+    Inter
+*/
+
+/*#region Main Style*/
+main {
     background-color: rgba(51, 51, 51, .80);
-    margin:1em 1em;
+    margin: 1em 1em;
     border-radius: 25px;
 }
-body{
+
+body {
     background: url(/Images/corruscant.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,25 +26,29 @@ body{
     font-size: 48px;
     color: darkgoldenrod;
     text-align: center;
+    font-family: "Russo One"
 }
+
 .mainTitle {
     background: radial-gradient(ellipse at bottom, white, black);
     border-radius: 50px;
 }
-.mainTitle img{
-    float: left;
-    padding:.2em;
-    border-radius: 50%;
 
-}
+    .mainTitle img {
+        float: left;
+        padding: .2em;
+        border-radius: 50%;
+    }
+
 .sloganBanner {
     font-weight: bold;
     font-size: 36px;
     color: darkgoldenrod;
     text-align: center;
+    font-family: Rubik;
 }
 
-.sloganBanner{
+.sloganBanner {
     background: radial-gradient(ellipse at top, white, black);
     border-radius: 50px;
 }
@@ -46,53 +59,62 @@ body{
     font-size: 24px;
     color: darkgoldenrod;
     text-align: center;
+    font-family: Inter;
 }
-footer{color:white;
-       text-align:center;
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: Inter;
 }
+/*#endregion
+*/
+
 /*#region Nav*/
-#nav ul{
+#nav ul {
     background-color: none;
     padding: .5em 1em;
-       
 }
+
 #nav li:hover {
     background-color: blue;
-    
 }
-#nav ul li{
-    
-    }
+
 #nav a {
     color: darkgoldenrod;
     font-weight: bold;
     text-decoration: none;
     display: block;
     padding: .5em 5.5em;
-    font-size:24px;
+    font-size: 24px;
 }
-#nav a:hover  {
-    color: black;
-    font-style: italic; 
-}
+
+    #nav a:hover {
+        color: black;
+        font-style: italic;
+    }
+
 #nav ul li {
     display: inline-block;
     list-style: none;
-    
 }
+
 #nav {
     display: table;
     width: 100%;
     table-layout: fixed;
+    font-family: "Russo One"
 }
-#nav li{ 
-    display: table-cell;
-}
-#nav a {
-    display: block;
-    text-align: center;
-    
-}
+
+    #nav li {
+        display: table-cell;
+    }
+
+    #nav a {
+        display: block;
+        text-align: center;
+    }
+
 #nav {
     background-image: url('../Images/Hyperspace.jpg');
     background-repeat: no-repeat;
@@ -101,103 +123,216 @@ footer{color:white;
 }
 /*#endregion*/
 
-/*#region contactus*/
-.contactInfo{
-    text-align: center;
-}
-.contactInfo a{ 
-    color: darkred;
-   
-}
-.contactInfo p{
-    color: orangered;
-    font-weight: bold;
-        font-size: 24px
-        
+/*#region index*/
+
+#aboutUs {
+    width: 1000px;
+    padding: .5em 15em;
+    color: lightgrey;
 }
 
-.socialIcon a{
-    float: right;
-    padding: .1em
+    #aboutUs p {
+        font-family: Inter;
+    }
+
+    #aboutUs img {
+        float: left;
+        display: inline;
+        padding: .5em 1em;
+    }
+
+    #aboutUs h2 {
+        text-decoration: underline;
+        text-align: left;
+        font-family: Rubik;
+    }
+
+#chooseUsRight {
+    width: 1000px;
+    padding: .5em 10em;
+    color: lightgrey;
 }
-   
+
+    #chooseUsRight h2 {
+        text-align: center;
+        font-size: 36px;
+        font-family: "Russo One"
+    }
+
+    #chooseUsRight h3 {
+        text-decoration: underline;
+        font-family: Rubik;
+    }
+
+    #chooseUsRight p {
+        font-family: Inter;
+    }
+
+    #chooseUsRight img {
+        display: inline;
+        float: left;
+        padding: .5em 1em;
+    }
+
+#chooseUsLeft {
+    width: 1000px;
+    padding: .5em 11em;
+    color: lightgrey;
+}
+
+    #chooseUsLeft p {
+        font-family: Inter;
+    }
+
+    #chooseUsLeft h3 {
+        text-decoration: underline;
+        font-family: Rubik;
+    }
+
+    #chooseUsLeft img {
+        display: inline;
+        float: right;
+
+        padding: .5em 1em;
+    }
+/*#endregion*/
+
+/*#region contactus*/
+.contactInfo {
+    text-align: center;
+}
+
+    .contactInfo h2 {
+        color: lightgrey;
+        font-weight: bolder;
+        font-family: "Russo One";
+    }
+
+    .contactInfo a {
+        color: lightgrey;
+        font-family: Rubik;
+    }
+
+    .contactInfo p {
+        color: lightgrey;
+        font-weight: bold;
+        font-size: 24px;
+        font-family: Inter;
+    }
+
+.socialIcon a {
+    float: right;
+    padding: .1em;
+}
+
 /*#endregion*/
 
 /*#region Team*/
-.asideDirectory{
+.asideDirectory {
     float: right;
     width: 25%;
     display: block
 }
 
-.asideDirectory li{
-        list-style:none;
-    border:2px solid black;
+    .asideDirectory li {
+        
+        border: 2px solid black;
+        font-family: Inter;
     }
-    .asideDirectory  a {
+
+    .asideDirectory a {
         color: darkgoldenrod;
         font-weight: bold;
         text-decoration: none;
         display: block;
         padding: .5em 2em;
     }
-    .asideDirectory li:hover{
+
+    .asideDirectory li:hover {
         background-color: black
     }
-    .asideDirectory a:hover{
+
+    .asideDirectory a:hover {
         font-style: italic;
     }
-.teamInfo{
-   display: inline-block;
+
+    .asideDirectory h2 {
+        color: lightgrey;
+        font-family: "Russo One"
+    }
+
+.teamInfo {
+    display: inline-block;
     width: 75%;
-    border-right:1px solid black;
-    box-sizing:border-box;
-    
+    border-right: 1px solid black;
+    box-sizing: border-box;
+    color: lightgrey
 }
-.teamInfo h2{
-    text-align:center;
-}
-#profilePic{
-    float:left;
+
+    .teamInfo p {
+        font-family: Inter;
+    }
+
+    .teamInfo h2 {
+        text-align: center;
+        font-family: "Russo One";
+    }
+
+#profilePic {
+    float: left;
     display: block;
-    padding:.5em 1em;
+    padding: .5em 1em;
+    border-radius:50%
 }
 
 /*#endregion*/
 
 /*#region classes*/
-.classSubjects h2{
-    text-align:center
-
-}
-.classSubjects ul li{
-display:inline-block;
-text-align: center;
-padding:.5em 1em;
-   
-}
-.classSubjects ul{
-    text-align:center;    
+.classSubjects h2 {
+    text-align: center;
+    color: lightgrey;
+    font-family: "Russo One"
 }
 
-.classSubjects ul li{
-    border: 3px solid black;  
-    width: 200px;
+.classSubjects ul h3 {
+    font-family: Rubik;
 }
-.classTable{
-    text-align:center;
+
+.classSubjects ul li {
+    display: inline-block;
+    text-align: center;
+    padding: .5em 1em;
+    color: lightgrey;
 }
+
+.classSubjects p {
+    font-family: Inter;
+}
+
+.classSubjects ul {
+    text-align: center;
+}
+
+    .classSubjects ul li {
+        border: 3px solid black;
+        width: 200px;
+    }
+
+.classTable {
+    text-align: center;
+}
+
 table, tr, td, th {
     border: 1px solid black;
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 
 table {
-    margin: auto; 
+    margin: auto;
     margin-bottom: 2em;
     background-color: white;
-    table-layout:auto;
-    width:500px;
+    table-layout: auto;
+    width: 500px;
 }
 
 
@@ -209,12 +344,11 @@ th {
 td, th {
     padding: .3em;
 }
-thead{
-    background-color:grey
+
+thead {
+    background-color: grey
 }
-table:{
-    
-}
+
 
 
 /*#endregion*/
