@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="favicon.ico" />
     <Content Include="Images\corruscant.jpg" />
     <Content Include="Images\Hyperspace.jpg" />
     <Content Include="Images\Placeholder.png" />

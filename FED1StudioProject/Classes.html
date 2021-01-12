@@ -15,15 +15,17 @@
         <p class="sloganBanner">
             Choose wisely
 
-            <a href="#" target="_blank">
-                <i class="fa fa-twitter" aria-hidden="true" style="color:rgb(29,161,242)"></i>
-            </a>
-            <a href="#" target="_blank">
-                <i class="fa fa-facebook-square" aria-hidden="true" style="color:#46a"></i>
-            </a>
-            <a href="#" target="_blank">
-                <i class="fa fa-linkedin" aria-hidden="true" style="color:#0077b5"></i>
-            </a>
+            <span>
+                <a href="#" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true" style="color:rgb(29,161,242)"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fa fa-facebook-square" aria-hidden="true" style="color:#46a"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fa fa-linkedin" aria-hidden="true" style="color:#0077b5"></i>
+                </a>
+            </span>
 
         </p>
     </header>
@@ -87,7 +89,7 @@
         </section>
         <section class="classTable">
             <h2>[Subject]-Class List</h2>
-            <table>
+            <table id="classTable">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -122,15 +124,40 @@
     </main>
     <footer class="socialIcon">
         &copy;Copyright 2020 Star Wars Academy
-        <a href="#" target="_blank">
-            <i class="fa fa-twitter" aria-hidden="true" style="color:rgb(29,161,242)"></i>
-        </a>
-        <a href="#" target="_blank">
-            <i class="fa fa-facebook-square" aria-hidden="true" style="color:#46a"></i>
-        </a>
-        <a href="#" target="_blank">
-            <i class="fa fa-linkedin" aria-hidden="true" style="color:#0077b5"></i>
-        </a>
+        <span>
+            <a href="#" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true" style="color:rgb(29,161,242)"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true" style="color:#46a"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true" style="color:#0077b5"></i>
+            </a>
+        </span>
     </footer>
+    <div id="side-btn"class="button" onclick="openClassNav()">
+        <span class="vertical-text">CLASSES</span>
+    </div>
+    <div class="sidenav" id="class-nav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeClassNav()">&times;</a>
+        <a href="#classTable">Class1</a>
+        <a href="#classTable">Class2</a>
+        <a href="#classTable">Class3</a>
+        <a href="#classTable">Class4</a>
+        <a href="#classTable">Class5</a>
+        <a href="#classTable">Class6</a>
+    </div>
+    <script>
+        function openClassNav() {
+            document.getElementById("side-btn").style.display = "none";
+            document.getElementById("class-nav").style.width = "250px";
+
+        }
+        function closeClassNav() {
+            document.getElementById("side-btn").style.display = "block";
+            document.getElementById("class-nav").style.width = "0";
+        }
+    </script>
 </body>
 </html>

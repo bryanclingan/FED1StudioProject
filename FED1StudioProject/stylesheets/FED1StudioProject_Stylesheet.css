@@ -192,7 +192,6 @@ footer {
     #chooseUsLeft img {
         display: inline;
         float: right;
-
         padding: .5em 1em;
     }
 /*#endregion*/
@@ -220,11 +219,22 @@ footer {
         font-family: Inter;
     }
 
-.socialIcon a {
-    float: right;
-    padding: .1em;
+.socialIcon {
+    position: relative;
 }
-
+.socialIcon span {
+    /*float: right;*/
+    position: absolute;
+    right: .5em;
+    padding: .1em;
+    
+    
+}
+.mainTitle img{
+    position:absolute;
+    left: 0;
+    
+}
 /*#endregion*/
 
 /*#region Team*/
@@ -235,7 +245,6 @@ footer {
 }
 
     .asideDirectory li {
-        
         border: 2px solid black;
         font-family: Inter;
     }
@@ -282,7 +291,7 @@ footer {
     float: left;
     display: block;
     padding: .5em 1em;
-    border-radius:50%
+    border-radius: 50%
 }
 
 /*#endregion*/
@@ -349,6 +358,60 @@ thead {
     background-color: grey
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.9);
+    overflow-x: hidden;
+    padding-top: 100px;
+    transition: .5s;
+    font-family: "Russo One";
+}
 
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: .3s;
+    }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+.close-btn {
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+.button {
+    font-family: sans-serif;
+    background: rgba(0,0,0,.5);
+    height: 100%;
+    width: 20px;
+    z-index: 10300;
+    position: fixed;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.vertical-text {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    writing-mode: vertical-lr;
+    color: white;
+    font-weight: bold;
+}
 
 /*#endregion*/
