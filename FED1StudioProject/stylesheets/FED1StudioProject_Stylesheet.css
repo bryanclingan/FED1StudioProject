@@ -71,6 +71,10 @@ footer {
 */
 
 /*#region Nav*/
+.activeNav {
+    border: double 10px white;
+}
+
 #nav ul {
     background-color: none;
     padding: .5em 1em;
@@ -85,7 +89,7 @@ footer {
     font-weight: bold;
     text-decoration: none;
     display: block;
-    padding: .5em 5.5em;
+    padding: .5em 4em;
     font-size: 24px;
 }
 
@@ -222,18 +226,17 @@ footer {
 .socialIcon {
     position: relative;
 }
-.socialIcon span {
-    /*float: right;*/
+
+    .socialIcon span {
+        /*float: right;*/
+        position: absolute;
+        right: .5em;
+        padding: .1em;
+    }
+
+.mainTitle img {
     position: absolute;
-    right: .5em;
-    padding: .1em;
-    
-    
-}
-.mainTitle img{
-    position:absolute;
     left: 0;
-    
 }
 /*#endregion*/
 
@@ -338,6 +341,16 @@ footer {
     color: lightgrey;
 }
 
+.classSubjects ul li a {
+    color: lightgrey;
+    display: block;
+    text-decoration: none;
+}
+
+.classSubjects ul li:hover {
+    border : 3px solid white;
+}
+
 .classSubjects p {
     font-family: Inter;
 }
@@ -346,14 +359,23 @@ footer {
     text-align: center;
 }
 
-    .classSubjects ul li {
-        border: 3px solid black;
-        width: 200px;
+.classSubjects ul li {
+    border: 3px solid black;
+    width: 200px;
+    
+    
+}
+    .classSubjects ul li p {
+        overflow: auto;
+        height: 200px;
     }
 
-.classTable {
-    text-align: center;
-}
+    .classTable {
+        text-align: center;
+        width: 700px;
+        padding-left: 16em;
+        padding-right: 14em;
+    }
 
 table, tr, td, th {
     border: 1px solid black;
