@@ -131,8 +131,9 @@ footer {
 
 #aboutUs {
     width: 1000px;
-    padding: .5em 15em;
+    padding: .5em 8em;
     color: lightgrey;
+    padding-right:0;
 }
 
     #aboutUs p {
@@ -153,7 +154,7 @@ footer {
 
 #chooseUsRight {
     width: 1000px;
-    padding: .5em 10em;
+    padding: .5em 5em;
     color: lightgrey;
 }
 
@@ -180,8 +181,9 @@ footer {
 
 #chooseUsLeft {
     width: 1000px;
-    padding: .5em 11em;
+    padding: .5em 8em;
     color: lightgrey;
+    padding-right:0;
 }
 
     #chooseUsLeft p {
