@@ -70,11 +70,23 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\Acadamy_of_Carida_IH.png" />
+    <Content Include="Images\blaster-fight.jpg" />
+    <Content Include="Images\Blaster.jpg" />
     <Content Include="Images\corruscant.jpg" />
+    <Content Include="Images\Droids.jpg" />
+    <Content Include="Images\gorgathehutt_01_169_42df5405.jpeg" />
     <Content Include="Images\Hyperspace.jpg" />
+    <Content Include="Images\interpersonal skills.jpg" />
+    <Content Include="Images\languages.jpg" />
+    <Content Include="Images\Light-saber.png" />
     <Content Include="Images\Placeholder.png" />
     <Content Include="Images\profileplaceholder.jpg" />
+    <Content Include="Images\san-hill_852a226d.jpeg" />
+    <Content Include="Images\Space-travel.jpg" />
     <Content Include="Images\starwarslogo.jpg" />
+    <Content Include="Images\static-assets-upload15365090036350818607.jpg" />
+    <Content Include="Images\valorum_a31904f4.jpeg" />
     <Content Include="js\jquery.js" />
     <Content Include="Sales.html" />
     <Content Include="stylesheets\FED1StudioProject_Stylesheet.css" />
@@ -88,6 +100,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\tseebo.png" />
+    <Content Include="Images\azmorgian.png" />
+    <Content Include="Images\castas.png" />
+    <Content Include="Images\clu-lesser_ce89b8aa.png" />
+    <Content Include="Images\jakoli.png" />
+    <Content Include="Images\mak-plain_458aadb1.png" />
+    <Content Include="Images\hondo-ohnaka_6ab3af8b.png" />
+    <Content Include="Images\hera-syndulla-s3_cf5e7f07.png" />
+    <Content Include="Images\quarrie_ab09a492.png" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

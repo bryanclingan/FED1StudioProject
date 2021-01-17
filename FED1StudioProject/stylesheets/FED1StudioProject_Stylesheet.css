@@ -158,11 +158,12 @@ footer {
     color: lightgrey;
 }
 
-    #chooseUsRight h2 {
-        text-align: center;
-        font-size: 36px;
-        font-family: "Russo One"
-    }
+#chooseUs {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Russo One";
+    color: lightgrey;
+}
 
     #chooseUsRight h3 {
         text-decoration: underline;
@@ -234,6 +235,7 @@ footer {
         position: absolute;
         right: .5em;
         padding: .1em;
+        text-decoration: none;
     }
 
 .mainTitle img {
@@ -263,9 +265,11 @@ footer {
     }
 
     .asideDirectory li:hover {
-        background-color: black
+        background-color: black;
     }
-
+    .activeAside{
+        background-color: black;
+    }
     .asideDirectory a:hover {
         font-style: italic;
     }
@@ -401,10 +405,16 @@ th {
 td, th {
     padding: .3em;
 }
-
-thead {
-    background-color: grey
+.even td {
+    background-color:darkgrey;
 }
+.odd td{
+    background-color: lightgray;
+}
+thead, tfoot {
+    background-color: grey;
+}
+
 
 .sidenav {
     height: 100%;

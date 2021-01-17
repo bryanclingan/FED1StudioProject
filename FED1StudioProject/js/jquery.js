@@ -5,7 +5,7 @@ $(function () {
         var imgSrc = $(this).attr("src");
 
         
-        $("#lightbox-content").html('<img src="' + imgSrc + '" class="img-responsive"/>');
+        $("#lightbox-content").html('<img src="' + imgSrc + '" class="img-responsive" width="500" height="500"/>');
 
 
        
